@@ -2471,11 +2471,10 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #3a8bf4;
-  border-color: #3a7bf4;
+  background-color: #1e85c1;
 }
 .btn-primary:hover {
-  color: #fff;
+  color: #000;
   background-color: #16d1f2e8;
   border-color: #0d94eeea;
 }
@@ -4402,6 +4401,13 @@ input[type=button].btn-block {
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
+
+.card-header-img {
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
@@ -6094,23 +6100,23 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #3aaaf4 !important;
+  background-color: #0288d1 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #ee3e0d !important;
+  background-color: #b3e5fc !important;
 }
 
 .bg-secondary {
-  background-color: #adbfcf !important;
+  background-color: #03a9f4 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #545b62 !important;
+  background-color: #b3e5fc !important;
 }
 
 .bg-success {
@@ -10049,7 +10055,7 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #0277bd;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #3a91f4 !important;
@@ -10083,42 +10089,33 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: #0277bd;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #01579b;
   }
-}
-
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(93, 127, 133, 0.8) 0%, rgba(127, 158, 214, 0.8) 100%), url("https://costaricaadventuredivers.com/wp-content/uploads/2019/11/AdobeStock_268431335-scaled.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
 }
 
 header.mastheadAbout {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(93, 127, 133, 0.8) 0%, rgba(127, 158, 214, 0.8) 100%), url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/b3/c9.jpg");
+  background: linear-gradient(to bottom, #64b5f6  0%, #64b5f6  100%), url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/b3/c9.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(93, 127, 133, 0.8) 0%, rgba(127, 158, 214, 0.8) 100%), url("https://costaricaadventuredivers.com/wp-content/uploads/2019/11/AdobeStock_268431335-scaled.jpeg");
+  background: linear-gradient(to bottom, rgba(1, 87, 155, 0.8) 0%, rgba(79, 195, 214, 0.8) 100%), url("https://costaricaadventuredivers.com/wp-content/uploads/2019/11/AdobeStock_268431335-scaled.jpeg");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-attachment: scroll;
   background-size: cover;
 }
