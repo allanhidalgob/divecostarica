@@ -165,7 +165,6 @@ a {
 }
 a:hover {
   color: #0c96d6;
-  text-decoration: underline;
 }
 
 a:not([href]) {
@@ -6119,6 +6118,26 @@ button.bg-secondary:focus {
   background-color: #b3e5fc !important;
 }
 
+.bg-section {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(255, 255, 255) 0%, rgba(2, 136, 209, 0.8) 100%), url("https://cdn.getyourguide.com/img/tour/5c6a6cd214841.jpeg/148.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.bg-section-2 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(2, 136, 209, 0.8) 0%, rgba(255, 255, 255) 100%), url("https://cdn.getyourguide.com/img/tour/5c6a6cd214841.jpeg/148.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .bg-success {
   background-color: #28a745 !important;
 }
@@ -9802,7 +9821,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: #000 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10102,13 +10121,21 @@ hr.light {
 header.mastheadAbout {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, #64b5f6  0%, #64b5f6  100%), url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/b3/c9.jpg");
+  background: linear-gradient(to bottom, rgba(1, 87, 155, 0.8) 0%, rgba(79, 195, 214, 0.8) 100%), url("https://cdn.getyourguide.com/img/tour/5c6a6cd214841.jpeg/148.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+}
 
 header.masthead {
   padding-top: 10rem;
@@ -10182,3 +10209,17 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
